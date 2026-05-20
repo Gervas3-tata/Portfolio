@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Geofrey Stephano</div>
+        <hr>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="about">
+            <div class="about-content">
+                <h1>Hi, I am <b>GEOFREY GERVAS STEPHANO</b> an IT Undergraduate Student(BITAM) of The State University of Zanzibar<b>(SUZA)</b></h1>
+                <p>Passionate and interested about database systems, Linux environments, and developing clean web applications.</p>
+            </div>
+            <div class="about-img">
+                <img src="me.jpg" alt="my photo">
+                <div class="profile-placeholder"><p><b>Name:</b>GEOFREY GERVAS </p>
+                    <b>Age:</b>25</div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>eToken Management System</h3>
+                    <p>A web-based system designed to generate and manage utility tokens efficiently.</p>
+                </article>
+                <article class="project-card">
+                    <h3>Database Administration Tool</h3>
+                    <p>Custom SQL scripts and schema optimization built during my DBMS laboratory works.</p>
+                </article>
+                <article class="project-card">
+                    <h3>Linux Automation Scripts</h3>
+                    <p>Bash scripts used to configure system features and troubleshoot hardware drivers.</p>
+                </article>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required placeholder="Enter your name">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required placeholder="Enter your email">
+                
+                <label for="message">Message:</label>
+                <textarea id="message" rows="5" required placeholder="Write your message..."></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2026 Geofrey Gervas Stephano. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
